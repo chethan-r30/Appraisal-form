@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
+
+                <!-- Header Row -->
+                <TableRow android:layout_width="wrap_content">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Research Achievements (RA)"
+                        android:background="#E0E0E0"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Self-Evaluation"
+                        android:background="#E0E0E0"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <!-- Data Rows -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Research Publication (Journals) Number of articles in refereed International Journals"
+                        android:padding="8dp" />
+                    <EditText
+                        android:id="@+id/row1UserInput"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Full paper publication in Conference Proceedings"
+                        android:padding="8dp" />
+                    <EditText
+                        android:id="@+id/row2UserInput"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Books published With ISBN/ISSN numbers or Number of chapters in edited books"
+                        android:padding="8dp" />
+                    <EditText
+                        android:id="@+id/row3UserInput"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Organizing Conferences (International/National) Convener/Coordinator/Member"
+                        android:padding="8dp" />
+                    <EditText
+                        android:id="@+id/row4UserInput"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Sponsored/Funded Projects carried out/ongoing"
+                        android:padding="8dp" />
+                    <EditText
+                        android:id="@+id/row5UserInput"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Consultancy/MoU"
+                        android:padding="8dp" />
+                    <EditText
+                        android:id="@+id/row6UserInput"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Patents/Copyright (National/International)"
+                        android:padding="8dp" />
+                    <EditText
+                        android:id="@+id/row7UserInput"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Research Guidance"
+                        android:padding="8dp" />
+                    <EditText
+                        android:id="@+id/row8UserInput"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Involvement of students in research activities(Encourage students to pursue Masters and Ph.D)."
+                        android:padding="8dp" />
+                    <EditText
+                        android:id="@+id/row9UserInput"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/buttonNavigateToSixthPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next Page"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </ScrollView>
+</HorizontalScrollView>

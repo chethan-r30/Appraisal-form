@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
+
+                <!-- Header Row 1 -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:background="#E0E0E0"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Interaction with the Outside World (IOW) / External Interface (EI)"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:background="#E0E0E0"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <!-- Header Row 2 -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Interaction with Outside World"
+                        android:background="#E0E0E0"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Self-Evaluation"
+                        android:background="#E0E0E0"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <!-- Data Rows -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Invited as a speaker"
+                        android:padding="8dp" />
+                    <EditText
+                        android:id="@+id/row1UserInput"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Live industrial projects"
+                        android:padding="8dp" />
+                    <EditText
+                        android:id="@+id/row2UserInput"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Any other, please specify"
+                        android:padding="8dp" />
+                    <EditText
+                        android:id="@+id/row3UserInput"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Subject Expert for Interview Panel"
+                        android:padding="8dp" />
+                    <EditText
+                        android:id="@+id/row4UserInput"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Judge/Session Chair for International/National Conference"
+                        android:padding="8dp" />
+                    <EditText
+                        android:id="@+id/row5UserInput"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Reviewer - International/National Journal"
+                        android:padding="8dp" />
+                    <EditText
+                        android:id="@+id/row6UserInput"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Editorial Board Member for National and International Journal"
+                        android:padding="8dp" />
+                    <EditText
+                        android:id="@+id/row7UserInput"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Resource Person for Conferences/Seminars/Workshops/Symposia, etc."
+                        android:padding="8dp" />
+                    <EditText
+                        android:id="@+id/row8UserInput"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+
+
+
+            </TableLayout>
+
+            <!-- Button -->
+            <Button
+                android:id="@+id/buttonNavigateToNinthPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next Page"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+    </ScrollView>
+</HorizontalScrollView>

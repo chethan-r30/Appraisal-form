@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                              Criteria For Rating"
+            android:textStyle="bold"
+            android:paddingTop="6dp"
+            android:paddingBottom="10dp"
+            android:textSize="18sp" />
+
+        <!-- Table with Horizontal Scroll -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="#FFFFFF">
+
+                <!-- Header Row -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Faculty Rating"
+                        android:padding="8dp"
+                        android:background="#E0E0E0"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+
+                    <!-- Divider -->
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="#000000" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Outstanding"
+                        android:padding="8dp"
+                        android:background="#E0E0E0"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Competent"
+                        android:padding="8dp"
+                        android:background="#E0E0E0"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Good"
+                        android:padding="8dp"
+                        android:background="#E0E0E0"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Satisfactory"
+                        android:padding="8dp"
+                        android:background="#E0E0E0"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Poor"
+                        android:padding="8dp"
+                        android:background="#E0E0E0"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <!-- Row 1 -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Professor"
+                        android:padding="8dp"
+                        android:background="#E0E0E0"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+
+                    <!-- Divider -->
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="#000000" />
+
+                    <EditText
+                        android:id="@+id/edtProfessorOutstanding"
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:padding="8dp"
+                        android:hint="Input" />
+
+                    <EditText
+                        android:id="@+id/edtProfessorCompetent"
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:padding="8dp"
+                        android:hint="Input" />
+
+                    <EditText
+                        android:id="@+id/edtProfessorGood"
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:padding="8dp"
+                        android:hint="Input" />
+
+                    <EditText
+                        android:id="@+id/edtProfessorSatisfactory"
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:padding="8dp"
+                        android:hint="Input" />
+
+                    <EditText
+                        android:id="@+id/edtProfessorPoor"
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+
+                <!-- Row 2 -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Associate Professor"
+                        android:padding="8dp"
+                        android:background="#E0E0E0"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+
+                    <!-- Divider -->
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="#000000" />
+
+                    <EditText
+                        android:id="@+id/edtAssocProfessorOutstanding"
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:padding="8dp"
+                        android:hint="Input" />
+
+                    <EditText
+                        android:id="@+id/edtAssocProfessorCompetent"
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:padding="8dp"
+                        android:hint="Input" />
+
+                    <EditText
+                        android:id="@+id/edtAssocProfessorGood"
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:padding="8dp"
+                        android:hint="Input" />
+
+                    <EditText
+                        android:id="@+id/edtAssocProfessorSatisfactory"
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:padding="8dp"
+                        android:hint="Input" />
+
+                    <EditText
+                        android:id="@+id/edtAssocProfessorPoor"
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+
+                <!-- Row 3 -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Assistant Professor"
+                        android:padding="8dp"
+                        android:background="#E0E0E0"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+
+                    <!-- Divider -->
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="#000000" />
+
+                    <EditText
+                        android:id="@+id/edtAsstProfessorOutstanding"
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:padding="8dp"
+                        android:hint="Input" />
+
+                    <EditText
+                        android:id="@+id/edtAsstProfessorCompetent"
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:padding="8dp"
+                        android:hint="Input" />
+
+                    <EditText
+                        android:id="@+id/edtAsstProfessorGood"
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:padding="8dp"
+                        android:hint="Input" />
+
+                    <EditText
+                        android:id="@+id/edtAsstProfessorSatisfactory"
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:padding="8dp"
+                        android:hint="Input" />
+
+                    <EditText
+                        android:id="@+id/edtAsstProfessorPoor"
+                        android:layout_width="150dp"
+                        android:layout_height="48dp"
+                        android:padding="8dp"
+                        android:hint="Input" />
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+
+        <!-- Remarks Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remarks By HoD"
+            android:textStyle="bold"
+            android:paddingTop="26dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/edtRemarksHoD"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#E0E0E0"
+            android:paddingTop="10dp"
+            android:padding="8dp"
+            android:hint="Enter remarks here"
+            android:gravity="top"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remarks By External Auditor"
+            android:textStyle="bold"
+            android:paddingTop="26dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/edtRemarksExternalAuditor1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#E0E0E0"
+            android:paddingTop="10dp"
+            android:padding="8dp"
+            android:hint="Enter remarks here"
+            android:gravity="top"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remarks By Principal"
+            android:textStyle="bold"
+            android:paddingTop="26dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/edtRemarksExternalAuditor2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#E0E0E0"
+            android:paddingTop="10dp"
+            android:padding="8dp"
+            android:hint="Enter remarks here"
+            android:gravity="top"
+            android:inputType="textMultiLine" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/buttonNavigateToNinthPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+            android:background="#4CAF50"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</ScrollView>

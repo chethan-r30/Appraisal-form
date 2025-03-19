@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1012573242112",
+    "project_id": "appraisalform-c1e7b",
+    "storage_bucket": "appraisalform-c1e7b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012573242112:android:2537d98fc6ae9865f129e5",
+        "android_client_info": {
+          "package_name": "com.example.appraisalform"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXHPUw-B79D8HK11Gv_ZDKGbdGsOohZVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <!-- Table Caption -->
+        <TextView
+            android:id="@+id/tableCaption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Performance Appraisal Table"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Table -->
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0, 1, 2"> <!-- Stretch all three columns -->
+
+            <!-- Table Row 1: Header -->
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="65dp"
+                    android:layout_weight="2"
+                    android:text="Assessment Head : Optimum Marks"
+                    android:background="#E0E0E0"
+                    android:padding="8dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:text="Maximum Marks"
+                    android:background="#E0E0E0"
+                    android:padding="8dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:text="Self-Evaluation (A)"
+                    android:background="#E0E0E0"
+                    android:padding="8dp"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+            <!-- Table Row 2: Data Row 1 -->
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Teaching Learning Process (TLP)"
+                    android:padding="8dp"/>
+                <EditText
+                    android:id="@+id/tlpMaxMarks"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:hint=""/>
+                <EditText
+                    android:id="@+id/tlpSelfEval"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:hint=""/>
+            </TableRow>
+
+            <!-- Table Row 3: Data Row 2 -->
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Professional Development and Research Contribution (PDRC)"
+                    android:padding="8dp"/>
+                <EditText
+                    android:id="@+id/pdrcMaxMarks"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:hint=""/>
+                <EditText
+                    android:id="@+id/pdrcSelfEval"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:hint=""/>
+            </TableRow>
+
+            <!-- Table Row 4: Data Row 3 -->
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Contribution at Departmental level (CDL)"
+                    android:padding="8dp"/>
+                <EditText
+                    android:id="@+id/cdlMaxMarks"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:hint=""/>
+                <EditText
+                    android:id="@+id/cdlSelfEval"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:hint=""/>
+            </TableRow>
+
+            <!-- Table Row 5: Data Row 4 -->
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Contribution at Institutional level (CIL)"
+                    android:padding="8dp"/>
+                <EditText
+                    android:id="@+id/cilMaxMarks"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:hint=""/>
+                <EditText
+                    android:id="@+id/cilSelfEval"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:hint=""/>
+            </TableRow>
+
+            <!-- Table Row 6: Data Row 5 -->
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Interaction with the Outside World (IOW) / External Interface (EI)"
+                    android:padding="8dp"/>
+                <EditText
+                    android:id="@+id/iowMaxMarks"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:hint=""/>
+                <EditText
+                    android:id="@+id/iowSelfEval"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:hint=""/>
+            </TableRow>
+
+            <!-- Table Row 7: Total Row -->
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Total"
+                    android:background="#E0E0E0"
+                    android:padding="8dp"
+                    android:textStyle="bold"/>
+                <EditText
+                    android:id="@+id/totalMaxMarks"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:hint=""/>
+                <EditText
+                    android:id="@+id/totalSelfEval"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:hint=""/>
+            </TableRow>
+        </TableLayout>
+
+        <!-- Signature Section -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Faculty Member Signature -->
+                <EditText
+                    android:id="@+id/facultySignature"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name of the Faculty"
+                    android:padding="12dp"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16dp"/>
+
+                <!-- HOD Signature -->
+                <EditText
+                    android:id="@+id/hodSignature"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name of the HOD"
+                    android:padding="12dp"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16dp"/>
+
+                <!-- External Evaluator Signature -->
+                <EditText
+                    android:id="@+id/evaluatorSignature"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name of the External Evaluator"
+                    android:padding="12dp"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16dp"/>
+
+                <!-- Principal Signature -->
+                <EditText
+                    android:id="@+id/principalSignature"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name of the Principal"
+                    android:padding="12dp"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16dp"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/buttonNavigateToThirdPage"
+            android:layout_width="274dp"
+            android:layout_height="74dp"
+            android:layout_below="@id/joiningDate"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="127dp"
+            android:layout_marginEnd="107dp"
+            android:text="Next" />
+    </LinearLayout>
+</ScrollView>
